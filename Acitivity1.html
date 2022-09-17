@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Activity 1</h2>
+
+<p>Determine if the number is Odd or Even</p>
+
+<p id="demo"></p>
+
+<script>
+const num = 2;
+let greeting;
+
+if (num % 2 == 0) {
+  greeting = "Even";
+} 
+else if (num % 2 == 1)
+{
+  greeting = "Odd";
+}
+
+document.getElementById("demo").innerHTML = "The number " + num + " is " + greeting;
+</script>
+
+</body>
+</html>
